@@ -49,6 +49,7 @@ jobs:
             sudo systemctl status scolarite
 
             echo "Health check..."
+            sleep 5
             curl --fail http://localhost:3000/
 
             echo "======================================"
